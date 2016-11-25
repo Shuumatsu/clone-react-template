@@ -4,5 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/VanishingDante/clone-react-template.git",
-  "author": "VanishingDante <VanishingDante@gmail.com>"
+  "author": "VanishingDante <VanishingDante@gmail.com>",
+  "bin": {
+    "clone-react-template": "./index.js"
+  },
+  "scripts": {
+    "start": "npm link"
+  }
 }
